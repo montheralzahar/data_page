@@ -437,7 +437,7 @@ footer ul li{
 .footemail button{
    background-color: #722ED1;
    color: white;
-   padding: 9px;
+   padding: 8px;
    border: none;
 }
 @media (min-width : 1231px) {
@@ -510,6 +510,13 @@ footer ul li{
         flex-direction: column;
         text-align: center;
         align-items: center;
+    }
+    .leftdrivenflex{
+        text-align: center;
+        margin-top: 5%;
+    }
+    .leftdrivp{
+        margin: auto;
     }
 
 }
