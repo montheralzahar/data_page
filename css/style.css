@@ -24,6 +24,7 @@ nav{
 }
 .navul li select{
     border: none;
+    background-color: white;
 }
 .navul li a{
     color: black;
