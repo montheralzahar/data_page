@@ -1,0 +1,529 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-image: url(../img/Path\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+nav{
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: center;
+    gap: 30%;
+    padding: 20px;
+}
+.navul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.navul li select{
+    border: none;
+}
+.navul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+}
+.navul li button{
+    background:transparent ;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    width: 100px;
+    height: 25px;
+    border-color: #722ED1;
+    color: #722ED1;
+    cursor: pointer;
+    transition: all 2s;
+    -webkit-transition: all 2s;
+    -moz-transition: all 2s;
+    -ms-transition: all 2s;
+    -o-transition: all 1s;
+    box-shadow: 0px 0px 3px #722ed172 ;
+}
+.navul li button:hover{
+    background-color: #722ED1;
+    color: white;
+    box-shadow: 0px 0px 8px #722ed182 ;
+}
+.headInfo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 4%;
+}
+
+.righthead img{
+    width: 90%;
+    height: 90%;
+}
+.headp {
+    background-color: #F9F0FF;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    width: 180px;
+    padding:5px;
+    color: #722ED1;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10%;
+}
+.ypurDatah{
+    margin-top: 2%;
+    line-height: 45px;
+}
+.harnessp{
+    font-size: small;
+    color: #8989A2;
+    margin-top: 4%;
+}
+.headbtns{
+    margin-top: 12%;
+}
+.startbtn{
+    border: none;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 10px;
+    background:#6C3BDC ;
+    color: white;
+    width: 120px;
+    font-size: 12px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.153);
+    cursor: pointer;
+}
+.LearnMorebtn{
+    border: none;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 10px;
+    background:white;
+    width: 120px;
+    font-size: 12px;
+    cursor: pointer;
+    margin-left: 10%;
+    
+}
+.WhyQublysec{
+    margin-top: 15%;
+}
+.fsechead{
+    text-align: center;
+}
+.fsecLorem{
+    margin-top: 3%;
+}
+.fsecLorem p{
+    width: 25%;
+    margin: auto;
+    font-size: small;
+    color: #8989A2;
+}
+.fsecFlex{
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 80px;
+}
+.fsecFlex .flexfsecdiv{
+     width: 200px;
+     text-align: center;
+}
+.flexp{
+    font-size: small;
+    color: #84849f;
+}
+.logossec{
+    margin-top: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    
+}
+
+.logos img{
+    width: 80%;
+    height: 80%;
+}
+.launchp{
+    background-color: #c3a5d79d;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    width: 180px;
+    padding:5px;
+    color: #722ed1c0;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 8%;
+    
+}
+
+.launch,.logos {
+    width: 400px
+}
+.launch h2{
+    margin-top: 10%;
+}
+.launchlorem{
+    margin-top: 5%;
+    width: 40%;
+    color: #84849f;
+    font-size: small;
+}
+.drivensec{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 8%;
+}
+.leftdrivenflex,.rightdrivenflex{
+    width: 40%;
+}
+.rightdrivenflex img{ width: 100%; height: 100%;}
+.leftdrivp{
+    background-color: #c3a5d79d;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    width: 180px;
+    padding:5px;
+    color: #722ed1c0;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10%;
+}
+.drivenH{
+    margin-top: 5%;
+}
+.drivenp{
+    margin-top: 5%;
+    color: #84849f;
+    font-size: small;
+    line-height: 25px;
+}
+.loveSec{
+    margin-top: 10%;
+    background-image: url(../img/Path\ 606.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.lovep{
+   text-align: center;
+   padding-top:10% ;
+}
+.lovep p{
+    width: 40%;
+    margin: auto;
+}
+.manProfile{
+    width: 200px;
+    margin: auto;
+    margin-top: 5%;
+}
+.profImg{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    margin: auto;
+    
+}
+.profImg img{
+    width: 100%;
+    height: 100%;
+
+}
+.profInfo{
+    text-align: center;
+}
+.loveHR{
+    width:60% ;
+    margin :auto;
+    height: 1px;
+    border: none;
+    background-color: #dec9fa8a;
+    margin-top: 7%;
+}
+.social{
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    padding-bottom: 5%;
+}
+.social div{
+    width: 100px;
+    height: 30px;
+}
+.social div img{
+   width: 100%;
+   height: 100%;
+}
+.signinsec{
+    margin-top: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+.hrdiv{
+    display: flex;
+    margin-top: 10%;
+
+}
+.hrdiv p{
+    font-size: medium;
+    color: #8989A2;
+    width: 100px;
+    text-align: center;
+}
+.fhr,.sechr{
+    width:20% ;
+    height: 1px;
+    border: none;
+    background-color: #8989a2a7;
+}
+.leftSignin{
+    width: 40%;
+}
+.signh2{
+    width: 50%;
+}
+.flexSign{
+    margin-top: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+.flexSign div img{
+     width: 55%;
+     height: 50%;
+}
+.flexSign div{
+    width: 30%;
+    
+}
+.rightSignin form{
+    border: 1px solid #8989a260;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    width: 300px;
+    text-align: center;
+    padding: 10%;
+}
+.email{
+    margin-top: 20px;
+}
+.rightSignin form{
+    box-shadow: 0px 10px 20px #ecdcf6;
+}
+.rightSignin form div{
+    margin-top: 10px;
+}
+.rightSignin form div input{
+    width: 90%;
+    border-color: #8989a260;
+    padding: 10px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+.formbtn{
+    margin-top: 5%;
+    width: 100%;
+    height: 40px;
+    background-color: #722ED1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-shadow: 0px 0px 5px #722ed1ae;
+}
+.ordiv p{
+    margin: auto;
+    margin-top: 8%;
+    color: #7f7fa0;
+    
+}
+.googleBtn{
+    margin: auto;
+    margin-top: 8%;
+    width: 80%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-color: rgb(0, 136, 255);
+    color: white;
+}
+.loginasign{
+    text-align: center;
+    
+}
+.loginasign p{
+    margin-top: 10%;
+    
+}
+footer{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20%;
+    font-size: 10px;
+    padding-bottom: 5%;
+}
+.pinfooter{
+    width: 180px;
+    margin-top: 5%;
+}
+
+.socialfoot{
+    margin-top: 10%;
+}
+footer ul{
+    list-style: none;
+}
+footer ul li{
+    margin-top: 10px;
+}
+.footemail{
+    margin-top: 5%;
+}
+.footemail input{
+    border: none;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.28);
+    width: 120px;
+    padding: 8px;
+}
+.footemail button{
+   background-color: #722ED1;
+   color: white;
+   padding: 8px;
+   border: none;
+}
+@media (min-width : 1231px) {
+   header{
+    background: transparent;
+   height: 600px;
+      
+   }
+}
+
+@media (max-width:768px) {
+    .btnli{
+       margin: auto;
+    }
+    .navul{
+        gap: 50px;
+    }
+    .rightHeadimg{
+            margin: auto;
+    }
+    .navul li a,.navul li select{
+        font-size: 12px;
+    }
+    .navul li button{
+        width: 80px;
+        font-size: 12px;
+    }
+   
+    .harnessp {
+        font-size: 10px;
+    }
+    .fsecLorem p{
+        width: 80%;
+    }
+    .logos,.launch {
+      text-align: center;
+    }
+    .launch .launchp,.launch .launchlorem{
+     margin: auto;
+    }
+    .leftdrivenflex,.rightdrivenflex{
+        width: 80%;
+    }
+    .signh2{
+        margin: auto;
+    }
+    .fhr,.sechr{
+        width: 30%;
+        margin: auto;
+    }
+    .leftSignin{
+        width: 100%;
+    }
+    .flexSign{
+        justify-content: flex-end;
+        margin-top: 10%;
+    }
+    .rightSignin form{
+        width: 250px;
+       margin-left: -10%;
+    }
+    .signh2{
+        font-size: 14px;
+    }
+    .lovep p{
+        font-size: 12px;
+        width: 50%;
+    }
+    footer {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+}
+@media (max-width:900px) {
+    footer {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        font-size: medium;
+    }
+}
+@media (max-width:800px) and (min-width:767px){
+    .rightSignin form{
+        width: 250px;
+        margin: auto;
+    }
+}
